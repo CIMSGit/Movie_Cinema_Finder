@@ -14,7 +14,7 @@ export default function GeoLoc() {
   const [long, setLong] = useState()
   const [lat, setLat] = useState()
 
-  let APIKey = "9fa5cf36a9acadbab2060f9ac54c5a80";
+  let APIKey = "YOUR_API KEY WEATHER API";
 
 
 
@@ -60,9 +60,9 @@ export default function GeoLoc() {
         const response = await fetch(`https://api-gate2.movieglu.com/cinemasNearby/?n=1`, {
           method: 'GET',
           headers: {
-            'client': 'PERS_147',
-            'x-api-key': 'P5JP3ZfneC4llxXXvjLuY7mtwjtEpBf89nfXVdar',
-            'authorization': 'Basic UEVSU18xNDc6QmtTUjlLRG1KR0hI',
+            'client': 'YOUR CLIENT DETAILS',
+            'x-api-key': 'YOUR API KEY',
+            'authorization': 'YOUR AUTH',
             'territory': 'UK',
             'api-version': 'v200',
             'geolocation': latitude + ';' + longitude,
@@ -93,9 +93,9 @@ export default function GeoLoc() {
         const response = await fetch(`https://api-gate2.movieglu.com/cinemasNearby/?n=1`, {
           method: 'GET',
           headers: {
-            'client': 'PERS_147',
-            'x-api-key': 'P5JP3ZfneC4llxXXvjLuY7mtwjtEpBf89nfXVdar',
-            'authorization': 'Basic UEVSU18xNDc6QmtTUjlLRG1KR0hI',
+           'client': 'YOUR CLIENT DETAILS',
+            'x-api-key': 'YOUR API KEY',
+            'authorization': 'YOUR AUTH',
             'territory': 'UK',
             'api-version': 'v200',
             'geolocation': lat + ';' + long,
