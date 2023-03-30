@@ -16,7 +16,7 @@ function App(props) {
       return;
     }
 
-    fetch(`https://www.omdbapi.com/?apikey=f1bca951&t=${input}&plot=full`, {
+    fetch(`https://www.omdbapi.com/?apikey={YOUR API KEY}`, {
       method: "GET"
     })
       .then((response) => response.json())
